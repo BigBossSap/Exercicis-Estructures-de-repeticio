@@ -30,24 +30,34 @@ namespace Ex12
             while (i <= num2);
             */
 
-            int i = 0;
+            int i = 1;
             int num1, num2=0;
             int resultat = 0;
+            int acumulador = 0;
+
+            Console.WriteLine("num1: ");
+            num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("num2: ");
+            num2 = Convert.ToInt32(Console.ReadLine());
+
+            do
+            {
+
+                
+
+                resultat = num2 + acumulador;
+                i++;
+                acumulador = resultat;
+                Console.WriteLine(resultat);
+               
+                
+            }
+            while (i <= num2);
 
             
 
-            while (i <= num2)
-            {
-                Console.WriteLine("num1: ");
-                num1 = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("num2: ");
-                num2 = Convert.ToInt32(Console.ReadLine());
+            
 
-                resultat = num2 + num2;
-                i++;
-            }
-
-            Console.WriteLine(resultat);
 
 
 
