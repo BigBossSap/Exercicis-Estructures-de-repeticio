@@ -6,14 +6,21 @@ namespace Ex03
     {
         static void Main(string[] args)
         {
+            /*3. Programa que validi una resposta s/n amb while. Que demani una resposta s ó n,
+i si no és s ó n que la torni a demanar, i si no està ....*/
+
             char lletra;
-            do
+
+            Console.WriteLine(" Escriu s o n: ");
+            lletra = Console.ReadKey().KeyChar;
+            while (lletra != 's' && lletra != 'n') 
+
             {
-                Console.WriteLine("Escriu s o n");
+                Console.WriteLine(" Escriu s o n: ");
                 lletra = Console.ReadKey().KeyChar;
             }
 
-            while (lletra == 's');
+            
         }
     }
 }
