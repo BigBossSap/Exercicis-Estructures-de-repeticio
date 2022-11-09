@@ -10,20 +10,32 @@ namespace Ex18
     només dos divisors, el 1 i ell mateix.
     */
 
-            int i=1;
-            int num, count=0;
-            
+            int num, cont = 0, i = 1;
 
-            Console.WriteLine("num");
+
+            Console.WriteLine("num: ");
             num = Convert.ToInt32(Console.ReadLine());
 
-           
+            while (i <= num)
+            {
+                if (num % i == 0)
+                    cont++;
+
+                i++;
+            }
+
+            if (cont ==2)
+                Console.WriteLine("si");
+            else
+                Console.WriteLine("no");
 
 
 
-           
 
-            
+
+
+
+
 
 
 
