@@ -33,7 +33,7 @@ namespace Ex12
             int i = 1;
             int num1, num2=0;
             int resultat = 0;
-            int acumulador = 0;
+            int suma = 0;
 
             Console.WriteLine("num1: ");
             num1 = Convert.ToInt32(Console.ReadLine());
@@ -45,10 +45,10 @@ namespace Ex12
 
                 
 
-                resultat = num2 + acumulador;
+                resultat = num1 + suma;
                 i++;
-                acumulador = resultat;
-                Console.WriteLine(resultat);
+                suma = resultat;
+                Console.WriteLine($"{resultat} + ({num1})");
                
                 
             }
