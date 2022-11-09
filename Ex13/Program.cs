@@ -10,30 +10,35 @@ namespace Ex13
             /*13.Calcula la divisió entera a base de restes. 20 / 3 = 6 * 3 + 2.Quocient 3 i sobren 2,
 doncs puc restar 6 vegades el 3*/
 
-            int i = 1;
-            int num1, num2 = 0;
-            int resultat = 0;
-            int suma = 0;
-            int divisio;
+            int divisio = 0;
+            int numerador, denominador;
+            int resto;
+           
+           
 
             Console.WriteLine("num1: ");
-            num1 = Convert.ToInt32(Console.ReadLine());
+            numerador = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("num2: ");
-            num2 = Convert.ToInt32(Console.ReadLine());
+            denominador = Convert.ToInt32(Console.ReadLine());
 
-            do
-            {
+            
+            resto = numerador;
 
+            while (resto >= denominador) {
 
-                divisio = num1 / num2;
-                resultat = num1 - (divisio*num2);
-                i++;
-                divisio = resultat;
-                Console.WriteLine($"{resultat} - ({num1})");
-
-
+                divisio++;
+                resto = resto - denominador;
+                
+                
             }
-            while (i < divisio);
+
+            Console.WriteLine($"El resultat de dividir {numerador} entre {denominador} es {divisio} y resta {resto}");
+
+
+
+
+
+
 
         }
     }

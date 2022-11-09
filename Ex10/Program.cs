@@ -11,8 +11,8 @@ namespace Ex10
 
             int i = 0;
             int num;
-            int suma;
             int acumulador = 0;
+            
 
 
             do
@@ -21,11 +21,11 @@ namespace Ex10
                 Console.WriteLine("Numero: ");
                 num = Convert.ToInt32(Console.ReadLine());
 
-                suma = num + acumulador;
-                Console.WriteLine($"Suma actual: {suma} ({i})");
+                acumulador = num + acumulador;
+                Console.WriteLine($"Suma actual: {acumulador} ({i})");
 
                 i++;
-                acumulador = suma;
+                
                 
 
             }

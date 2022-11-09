@@ -11,22 +11,8 @@ namespace Ex14
    */
 
             int n;
-            int calcul, calcul2;
-            int i = 1;
-            do
-            {
-                Console.WriteLine("n: ");
-                n = Convert.ToInt32(Console.ReadLine());
 
-                calcul = n / i;
-                calcul2 = calcul + (calcul*i);
-                Console.WriteLine($"{calcul2}");
-                i++;
-
-            }
-
-            while (i > n);
-
+            
 
         }
     }

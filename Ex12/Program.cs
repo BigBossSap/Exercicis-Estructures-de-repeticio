@@ -31,8 +31,7 @@ namespace Ex12
             */
 
             int i = 1;
-            int num1, num2=0;
-            int resultat = 0;
+            int num1, num2;         
             int suma = 0;
 
             Console.WriteLine("num1: ");
@@ -40,23 +39,30 @@ namespace Ex12
             Console.WriteLine("num2: ");
             num2 = Convert.ToInt32(Console.ReadLine());
 
+            if(num2>num1)
+            {
+                int aux = num2;
+                num2 = num1;
+                num1 = aux;
+            }
+            
             do
             {
 
                 
 
-                resultat = num1 + suma;
+                suma = num1 + suma;
                 i++;
-                suma = resultat;
-                Console.WriteLine($"{resultat} + ({num1})");
+                Console.Write($"{num1} +");
+                
                
                 
             }
             while (i <= num2);
 
-            
 
-            
+            Console.WriteLine($"{suma} + ({num1})"); //num1 es per saber la linea
+
 
 
 

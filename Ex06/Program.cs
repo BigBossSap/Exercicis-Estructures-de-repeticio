@@ -21,5 +21,16 @@ namespace Ex06
             }
 
         }
+
+
+         /* Con "for"
+             *  int i, num;
+            
+
+            Console.WriteLine("¿Cuantas veces quieres escribir 'hola'?");
+            num = Convert.ToInt32(Console.ReadLine());
+         for (i=0;i<num;i++)
+         console.writeline(&"Hola")
+
     }
 }
