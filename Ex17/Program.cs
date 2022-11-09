@@ -10,17 +10,24 @@ namespace Ex17
    12 ha d’escriure: 6
    */
 
-            int i;
-            int divisors=0;
-            int num;
 
-            Console.WriteLine("num");
+
+
+            int num, cont = 0, i = 1;
+
+
+            Console.WriteLine("num: ");
             num = Convert.ToInt32(Console.ReadLine());
 
-            for (i = 1; i<99; i++)
+            while (i <= num)
+            {
                 if (num % i == 0)
-                    divisors++;
-            Console.WriteLine(divisors);
+                    cont++;
+
+                i++;
+            }
+            Console.WriteLine(cont);
+
         }
     }
 }

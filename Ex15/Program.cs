@@ -23,10 +23,11 @@ namespace Ex15
                 factorial = factorial * i;
                 i++;
                 
+                
             }
 
 
-            Console.WriteLine(i);
+            Console.WriteLine(factorial);
         }
     }
 }

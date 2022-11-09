@@ -10,23 +10,24 @@ namespace Ex16
  exemple si donem el 12 ha d’escriure: 1 2 3 4 6 12
  */
 
-            int i, num;
-            int contador=0;
+            int num, divisors=1;
+          
 
             Console.WriteLine("num: ");
             num = Convert.ToInt32(Console.ReadLine());
-            for (i=0; num<=num; i++)
-            {
+
+            while (divisors <= num)
+            { 
+                if (num % divisors == 0)
+                
+                    Console.WriteLine(divisors);
+                    divisors++;
                 
                 
-                if (num%2==0)
-                {
-                    Console.WriteLine(i);
-                    contador++;
-                }
                 
+          
                 
-                Console.WriteLine(i);
+               
 
 
             }
