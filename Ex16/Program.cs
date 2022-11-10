@@ -21,7 +21,8 @@ namespace Ex16
                 if (num % divisors == 0)
                 
                     Console.WriteLine(divisors);
-                    divisors++;
+
+                divisors++;
                 
                 
                 
