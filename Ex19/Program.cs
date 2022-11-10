@@ -21,9 +21,10 @@ namespace Ex19
 
 
             {
-                if (num1 % i == 0 && num2 % i == 0)
+                if (num1 % i == 0 && num2 % i == 0 && num1%i==1 && num2%i==1)
                     Console.WriteLine(i);
-                    i++;
+
+               i++;
                     
                 
 
