@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex24", "Ex24\Ex24.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex25", "Ex25\Ex25.csproj", "{FD3EEEEF-AC5E-4F7E-999B-1B3E26D8A6F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex26", "Ex26\Ex26.csproj", "{966C55B0-875A-4EBD-8564-5FCEEC8B61FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{FD3EEEEF-AC5E-4F7E-999B-1B3E26D8A6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD3EEEEF-AC5E-4F7E-999B-1B3E26D8A6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD3EEEEF-AC5E-4F7E-999B-1B3E26D8A6F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{966C55B0-875A-4EBD-8564-5FCEEC8B61FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{966C55B0-875A-4EBD-8564-5FCEEC8B61FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{966C55B0-875A-4EBD-8564-5FCEEC8B61FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{966C55B0-875A-4EBD-8564-5FCEEC8B61FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
