@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.3.32922.545
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex01", "Ex01\Ex01.csproj", "{A7061891-9C35-488C-80CA-C4BC439D90E2}"
 EndProject
@@ -47,7 +47,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex21", "Ex21\Ex21.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex22", "Ex22\Ex22.csproj", "{7705259C-258F-47F3-9AFD-92BE3E81FDCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex19.b", "Ex19.b\Ex19.b.csproj", "{3972463A-D163-4391-9882-F715ECCC332C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex19.b", "Ex19.b\Ex19.b.csproj", "{3972463A-D163-4391-9882-F715ECCC332C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex20.b", "Ex20.b\Ex20.b.csproj", "{759543A4-B04D-4408-94BC-3410DA24EDB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex20.c Semafor", "Ex20.c Semafor\Ex20.c Semafor.csproj", "{7DA690C8-3FF2-4C3D-B5A0-1EE7AE499D74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +151,14 @@ Global
 		{3972463A-D163-4391-9882-F715ECCC332C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3972463A-D163-4391-9882-F715ECCC332C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3972463A-D163-4391-9882-F715ECCC332C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{759543A4-B04D-4408-94BC-3410DA24EDB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{759543A4-B04D-4408-94BC-3410DA24EDB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{759543A4-B04D-4408-94BC-3410DA24EDB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{759543A4-B04D-4408-94BC-3410DA24EDB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DA690C8-3FF2-4C3D-B5A0-1EE7AE499D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA690C8-3FF2-4C3D-B5A0-1EE7AE499D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA690C8-3FF2-4C3D-B5A0-1EE7AE499D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA690C8-3FF2-4C3D-B5A0-1EE7AE499D74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
