@@ -11,21 +11,22 @@ namespace Ex22
 */
 
             int i = 1;
-            int divisors = 0;
-            int num;
+            int num, arrel=0;
 
             Console.WriteLine("num");
             num = Convert.ToInt32(Console.ReadLine());
 
 
-            while (num % i == 0)
+            while (i*i<=num)
             {
-                divisors++;
+               
                 
-                Console.WriteLine(divisors);
+                 
+                
                 i++;
             }
-            
+
+            Console.WriteLine(i-1);
         }
     }
 }
