@@ -29,10 +29,10 @@ namespace Ex26
 
             Console.WriteLine(numeroReves);
         
-            if (num==Convert.ToInt32(numeroReves))
-                Console.WriteLine("CAp i Cua");
+            if (aux==Convert.ToInt32(numeroReves))
+                Console.WriteLine("Cap i Cua");
             else
-                Console.WriteLine("no es cap icuaeta");
+                Console.WriteLine("no es Cap i Cua");
 
         }
     }

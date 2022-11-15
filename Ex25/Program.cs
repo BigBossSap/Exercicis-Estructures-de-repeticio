@@ -8,22 +8,25 @@ namespace Ex25
         {
             /*25. Fer un programa que sumi les xifres que té un número enter*/
 
-            long num, i = 1, cont = 0, acumulador =0;
+            long num, i = 1, cont = 0, acumulador =0, suma =0;
 
             Console.WriteLine("cifra: ");
             num = long.Parse(Console.ReadLine());
 
-            while (num / i * 10 != 0)
+            while (num != 0)
             {
-                acumulador += num % 10;
+                acumulador = num % 10;
+                num = num / 10;
+
+                suma += acumulador;
                 
 
-                i = i * 10;
+                
                 
                 
             }
 
-            Console.WriteLine(acumulador);
+            Console.WriteLine(suma);
         }
     }
 }
