@@ -9,33 +9,28 @@ namespace Ex21
             /*21.Dir si un número és perfecte.Ho son els que la suma dels divisors excepte ell mateix
  coincideix amb el número.Per exemple 6 = 1 + 2 + 3 */
 
-            int divisors=0, i = 1, num;
+            int num1, sumadivisors = 0, i= 1;
 
-            Console.WriteLine("num:");
-            num = Convert.ToInt32(Console.ReadLine());
-
-            while (i <= num/2)
+            Console.WriteLine("num1: ");
+            num1 = Convert.ToInt32(Console.ReadLine());
+           
+            while (i<=num1/2)
             {
-                if (num % i == 0)
-                {
-
-                    divisors = divisors + i;
-
-                }
-
+                if (num1 % i == 0)
+                    sumadivisors += i;
                 i++;
+                
             }
 
-                if (divisors == num)
-                    Console.WriteLine("SI");
-                else
-                    Console.WriteLine("NO");
-
-            
+            if (sumadivisors==num1)
+                Console.WriteLine("Es perfecte");
+            else
+                Console.WriteLine("No es perfecte");
 
 
-           
-           
+
+
+
         }
     }
 }

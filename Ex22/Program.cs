@@ -7,31 +7,26 @@ namespace Ex22
         static void Main(string[] args)
         {
 
-            /* 22. Calcular l’arrel entera de un número. arrel (30) = 5  8 elevat a 2 + num
+            /*22. Calcular l’arrel entera de un número. arrel (30) = 5
 */
 
             int i = 1;
-
-            int arrel, arrelC;
-            int num;
+            int num, arrel=0;
 
             Console.WriteLine("num");
             num = Convert.ToInt32(Console.ReadLine());
 
 
-            while (i <= num)
+            while (i*i<=num)
             {
-                arrel = num / num;
-                arrelC = arrel + num;
-                Console.WriteLine(arrelC);
+               
+                
+                 
+                
                 i++;
             }
 
-
-
-
-
-
+            Console.WriteLine(i-1);
         }
     }
 }        

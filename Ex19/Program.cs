@@ -10,7 +10,7 @@ namespace Ex19
    comú divisor és el divisor de tots dos més gran que hi hagi. Si no trobem cap
    divisor, el 1 sempre ho serè.*/
 
-            int i=1, num1, num2, count=0, residu;
+            int i=1, num1, num2, mcd=0;
 
             Console.WriteLine("num1:");
             num1 = Convert.ToInt32(Console.ReadLine());
@@ -21,18 +21,21 @@ namespace Ex19
 
 
             {
-                if (num1 % i == 0 && num2 % i == 0 && num1%i==1 && num2%i==1)
-                    Console.WriteLine(i);
-
-               i++;
-                    
+                if (num1 % i == 0 && num2 % i == 0)
                 
-
+                    mcd = i;
+                   
 
                 
+                i++;
+               
             }
 
-            
+            Console.WriteLine(mcd);
+
+
+
+
 
 
 
