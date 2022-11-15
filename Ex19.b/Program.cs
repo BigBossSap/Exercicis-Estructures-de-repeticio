@@ -28,7 +28,7 @@ namespace Ex19.b
 
             } while (b != 0);
 
-            int mcm = a;
+            
 
             Console.WriteLine(a);
 
