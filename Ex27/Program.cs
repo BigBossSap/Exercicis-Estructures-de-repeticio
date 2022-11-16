@@ -11,7 +11,9 @@ namespace Ex27
   de cares i creus ha tret.
   */
 
-            double tirada = 1, cara = 0, creu = 0;
+
+
+            double tirada = 0, cara = 0, creu = 0;
 
             while (tirada<1000000)
             {
@@ -19,14 +21,9 @@ namespace Ex27
                Random random = new Random();
                 int resultado = random.Next(0, 2);
                 tirada++;
-              
-
-                if (resultado ==1)
-            
+             
+                if (resultado ==1)           
                     cara++;
-
-
-                
                 else if (resultado==0)
                     creu++;
 

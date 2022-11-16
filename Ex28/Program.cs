@@ -10,27 +10,32 @@ namespace Ex28
    21, ...
    */
             int i = 0,num, suma=0;
-            Console.WriteLine("num:");
+            Console.Write("Escriu un numero: ");
             num = int.Parse(Console.ReadLine());
 
 
-           while (i <= num)
+           while (suma <= num)
             {
 
-                suma += i;
+                suma = suma + i;
                 i++;
 
-                if (suma == num)
-                    Console.WriteLine("SI");           
-                else
-                    Console.WriteLine( "no");
-
+                 
+               
+                   
             }
 
-            
-            
+            if (suma == num)
+                Console.WriteLine("SI");
+            else
+                Console.WriteLine("NO");
 
-            
+
+
+
+
+
+
 
         }
     }
