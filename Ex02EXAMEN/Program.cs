@@ -7,7 +7,13 @@ namespace Ex02EXAMEN
         static void Main(string[] args)
         {
 
-            double x, termes, i = 1, potencia=1, fractan=1;
+            /*2.- Fer un mètode en C# que calculi l’arctangent d’un angle X entre -1 i 1 a partir de la sèrie de Taylor:
+ 
+Ens ha de demanar el nombre de termes a sumar i la X. No cal controlar que l’angle estigui entre -1  i 1.
+*/
+            //x=1 entre -1, temres vegades;
+            double x, termes, i = 0, fractan = 0, simbol = 1, exponent =1;
+            
 
             Console.WriteLine("x: ");
             x = Convert.ToDouble(Console.ReadLine());
@@ -17,11 +23,14 @@ namespace Ex02EXAMEN
 
             while (i<=termes)
             {
-                fractan = (double)Math.Pow(x, i) / i + 1;
+                
+
+                fractan = simbol * Math.Pow(x, exponent) / exponent;
                 i++;
-                fractan = fractan + (double)Math.Pow(x, i) / i + 1;
-                i++;
-                fractan = fractan - (double)Math.Pow(x, i) / i + 1;
+                exponent += 2;
+                simbol *= -1;
+                fractan += fractan;
+                
 
 
 

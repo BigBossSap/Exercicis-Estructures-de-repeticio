@@ -9,7 +9,7 @@ namespace Ex28
             /*28. Fer un programa que digui si un número és apilable: Ho són el 0, 1, 3, 6, 10, 15,
    21, ...
    */
-            int i = 0,num, suma=0;
+            int i = 0; num, suma=0;
             Console.Write("Escriu un numero: ");
             num = int.Parse(Console.ReadLine());
 

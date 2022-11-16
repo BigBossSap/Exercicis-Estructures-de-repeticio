@@ -13,7 +13,7 @@ namespace Ex31
 
    0, 1, 1, 2, 3, 5, 8, 13, 21….. */
 
-            int i = 1, j = 0, seguent, primer=-1, segon=1;
+            int i = 1, seguent, primer=-1, segon=1;
 
             for (i = 0; i <= 20; i++)
             {
@@ -21,6 +21,7 @@ namespace Ex31
                     seguent = primer + segon;
                     primer = segon;
                     segon= seguent;
+                
 
                 Console.WriteLine(seguent);
 
