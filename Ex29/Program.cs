@@ -6,10 +6,10 @@ namespace Ex29
     {
         static void Main(string[] args)
         {
-            /*28. Fer un programa que digui si un número és apilable: Ho són el 0, 1, 3, 6, 10, 15,
-   21, ...
+            /*29. Fer un programa que escrigui els apilables entre 1 i 1000
+
    */
-            int i = 0, num, suma = 0, j = 1, aplicable = 0;
+            int i = 0, suma = 0, j = 1, aplicable = 0;
            
 
 
@@ -21,19 +21,20 @@ namespace Ex29
 
                     suma += i;
                     i++;
+                    
 
-                    if (suma == j)
+                    if (suma == i)
                     {
                         
                         aplicable += suma;
-                        Console.WriteLine(aplicable);
+                        Console.WriteLine(i);
 
                     }
 
                     
 
                 }
-                j++;
+                
                 
 
 

@@ -22,7 +22,8 @@ namespace Ex28
 
                 if (suma == num)
                     Console.WriteLine("SI");           
-
+                else
+                    Console.WriteLine( "no");
 
             }
 
