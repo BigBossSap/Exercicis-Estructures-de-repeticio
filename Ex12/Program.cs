@@ -61,7 +61,7 @@ namespace Ex12
             while (i <= num2);
 
 
-            Console.WriteLine($"{suma} + ({num1})"); //num1 es per saber la linea
+            Console.WriteLine($"{suma}"); //num1 es per saber la linea
 
 
 
